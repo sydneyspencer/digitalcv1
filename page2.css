@@ -1,0 +1,65 @@
+
+body{
+    background-color: lightblue;
+    background-image: none;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+header {   
+    font-family: 'Itim', cursive;
+    display: flex;
+    font-family: "Itim", cursive;
+}
+
+bottomfooter {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    text-align: center;
+}
+
+.bios {
+    align-items: center;
+    flex: 1;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.h1{
+    font-family: "Itim", cursive;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+li a {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+    border-style: solid;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+li a.active {
+    color: black;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
